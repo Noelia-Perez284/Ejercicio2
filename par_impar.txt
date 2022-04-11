@@ -1,0 +1,15 @@
+Ingresar un numero
+Asignarle una varianble; n= numero ingresado
+Si n es igual a cero, informar que el numero ingresado es 0
+Si n es divisible por 2 y el resto es cero, entonces n es par
+Si el resto de la division por dos es distinto de cero, entonce n es impar.
+
+
+
+Pruebas de escritorio:
+Numero asignado  Resultado
+0                El numero ingresado es Cero
+6                Par
+57               Impar
+88.5             Impar
+304              Par
