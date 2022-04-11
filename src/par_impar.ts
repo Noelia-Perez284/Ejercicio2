@@ -1,6 +1,6 @@
-let btnEnviar = document.getElementById("btnEnviar");
+let btnEnviar = <HTMLButtonElement>document.getElementById("btnEnviar");
 let inputNumero = <HTMLInputElement>document.getElementById("Numero");
-let numeroParImpar = document.getElementById("numero ParImpar");
+let numeroParImpar = <HTMLElement>document.getElementById("numeroParImpar");
 
 btnEnviar.addEventListener("click", () => {
   let numero = Number(inputNumero.value);
@@ -12,7 +12,7 @@ btnEnviar.addEventListener("click", () => {
     numeroParImpar.innerHTML = numero + " es par";
     console.log(numero + " es par");
   } else {
-    numeroParImpar.innerHTML = numero + " es imar";
+    numeroParImpar.innerHTML = numero + " es impar";
     console.log(numero + "es impar");
   }
 });
